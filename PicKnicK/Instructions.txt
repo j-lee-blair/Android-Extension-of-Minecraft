@@ -1,0 +1,9 @@
+Prerequisites:
+* Java SE 8
+* Python 2.7
+	* flask
+	* requests
+
+1. Launch MainPiServer, preferably with run_system.bat. This will launch both the MainPiServer and the Minecraft server.
+2. Launch HomePiServer, preferably with run_homepi.bat Substitute <homePiAddress> and <mainPiAddress> with the appropriate IP-addresses.
+3. Launch PicKnicK (the Android-application) and make a request to the MainPiServer by using the menu button on your Android phone.
